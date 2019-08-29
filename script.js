@@ -60,7 +60,7 @@ window.onload = function() {
     pipe1.style.backgroundColor = pipecolor;
     gameArea.appendChild(pipe1);
 
-    let pipeSpace = Math.floor(Math.random() * 250) + 150;
+    let pipeSpace = Math.floor(Math.random() * 250) + 220;
     let pipe2 = document.createElement('div');
     pipe2.start = pipe1.start;
     pipe2.classList.add('pipe', 'pipe2');

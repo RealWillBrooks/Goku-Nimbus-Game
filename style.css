@@ -65,7 +65,7 @@
     text-align: center;
     left: 20%;
     width: 60%;
-    color: white;
+    color: black;
     font-size: 4em;
     z-index: 100;
   }
@@ -102,3 +102,5 @@
       display: none;
     }
   }
+
+ 
