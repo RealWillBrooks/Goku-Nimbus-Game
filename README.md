@@ -2,6 +2,8 @@
 
 > Adventures of Goku & Nimbus: Version 1.0
 
+LAUNCH GAME: https://realwillbrooks.github.io/Goku-Nimbus-Game/
+
 <p> For all my DragonBall fans out there! A fun project!</p>
 
 <p> Created by William Brooks, (http://www.github.com/realwillbrooks) </p>
