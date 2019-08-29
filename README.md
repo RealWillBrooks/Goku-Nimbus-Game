@@ -16,9 +16,9 @@ Feel Free to give this project a Star!
 
 <p> Screenshot your high score and feel free to message/tweet it to me on Twitter and I will update the scoreboard below! </p>
 
-1. Derrick Taylor - 1411
-2. William Brooks - 1314
-3.
+1. William Brooks - 1867 (8/29/19)
+2. Derrick Taylor - 1411 (8/29/19)
+3. William Brooks - 1314 (8/29/19)
 4.
 5.
 6.
