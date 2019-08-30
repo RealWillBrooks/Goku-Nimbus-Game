@@ -7,12 +7,14 @@ window.onload = function() {
   document.body.onmousedown = setLeftButtonState;
   document.body.onmousemove = setLeftButtonState;
   document.body.onmouseup = setLeftButtonState;
+  
 
   document.addEventListener('click', start, { once: true });
 
 
   let keys = {};
   let player = {};
+
 
   function start() {
     player.speed = 5;
@@ -178,5 +180,39 @@ window.onload = function() {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+  }
+};
+
+if(isIncompatible.any())
+{
+  player.score();
+}
+else
+{
+  player.score();
+}
+
+ // Defining browser support for the previously defined Buzz event
+ var isIncompatible = {
+  Android: function() {
+  return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function() {
+  return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function() {
+  return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function() {
+  return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Safari: function() {
+  return (navigator.userAgent.match(/OS X.*Safari/) && ! navigator.userAgent.match(/Chrome/));
+  },
+  Windows: function() {
+  return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function() {
+  return ( isIncompatible . Android () ||  isIncompatible . BlackBerry () ||  isIncompatible . iOS () ||  isIncompatible . Opera () ||  isIncompatible . Safari () ||  isIncompatible . Windows ());
   }
 };
