@@ -7,9 +7,11 @@ window.onload = function() {
   document.body.onmousedown = setLeftButtonState;
   document.body.onmousemove = setLeftButtonState;
   document.body.onmouseup = setLeftButtonState;
+  document.body.ontouchstart= setLeftButtonState;
   
 
   document.addEventListener('click', start, { once: true });
+  document.addEventListener('touchstart', start, { once: true});
 
 
   let keys = {};
@@ -183,14 +185,27 @@ window.onload = function() {
   }
 };
 
-if(isIncompatible.any())
-{
-  player.score();
-}
-else
-{
-  player.score();
-}
+ // Mobile browsers do not support buzz bindOnce event
+ if(isIncompatible.any())
+ {
+    // Show or score
+    showScore();
+ }
+ else
+ {
+    // The hit sound begins and then the death sound then shows the score
+    soundHit.play().bindOnce("ended", function() {
+       soundDie.play().bindOnce("ended", function() {
+          showScore();
+       });
+    });
+ }
+
+ function showScore()
+ {
+   player.score
+ }
+
 
  // Defining browser support for the previously defined Buzz event
  var isIncompatible = {
