@@ -17,6 +17,7 @@
     height: 100%;
     margin: auto;
     overflow: hidden;
+    cursor: pointer;
   }
 
   .score {
@@ -56,6 +57,7 @@
     font-size: 1.5em;
     background-image: url(bird.png);
     background-size: cover;
+    cursor: pointer;
   }
 
 
