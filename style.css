@@ -18,6 +18,7 @@
     margin: auto;
     overflow: hidden;
     cursor: pointer;
+    bottom: 0;
   }
 
   .score {
@@ -105,4 +106,3 @@
     }
   }
 
- 
