@@ -4,6 +4,8 @@
 
 LAUNCH GAME: https://realwillbrooks.github.io/Goku-Nimbus-Game/
 
+<p> Updates are being made to game, to create things in React Native for mobile compatibility.*** </p>
+
 <p> For all my DragonBall fans out there! A fun project!</p>
 
 <p> Created by William Brooks, (http://www.github.com/realwillbrooks) </p>
