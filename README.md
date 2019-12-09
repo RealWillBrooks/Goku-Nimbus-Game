@@ -23,10 +23,10 @@ Feel Free to give this project a Star!
 3. William Brooks - 1314 (8/29/19)
 4. User - 827 (8/29/19)
 5. IveGotAFoodBaby (IG) - 655 (8/29/19)
-6.
+6. User - 598 (12/09/19)
 7.
 8.
 9.
 10.
 
-<p> Game is being recreated in React Native!^</p>
+<p> Game is being recreated in React Native! Will be updated and available soon***</p>
