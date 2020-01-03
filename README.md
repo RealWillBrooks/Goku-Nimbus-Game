@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Adventures of Goku & Nimbus👋</h1>
+<h1 align="center">Welcome to Adventures of Goku & Nimbus!!👋</h1>
 
 > Adventures of Goku & Nimbus: Version 1.1
 
